@@ -1,50 +1,46 @@
-# Code camp 2016-06-16 - 2016-06-17
+## Code camp 2016-06-16 - 2016-06-17
+#"Javascript web apps with components and one-way data flow" 
 
-## Theory
+## Prerequisites
+1. Up-to-date Chrome (for Ecma-script 2015 support)
+2. GIT
+3. Node 6.x (for the build process)
+4. Your IDE of choice - why not try VSCode?
 
-Ideas for topics
+## What are we learning?
+ * Modules
+ * ES2015 (string templates, spread, arrow functions etc)
+ * Rendering a web page from application state (the one-way data flow)
+ * Updating the state and triggering re-render
+ * Single-Page-Application routing
+ * Javascript tests (with Tape)
 
-### es2015
-* new features - string templates, spread, arrow functions etc...
-* transpilers - bable, bublé etc... 
+## What are we doing?
+We will be building a basic web application using javascript, as vanilla as possible. The application will consist of:
+1. Back-end API: AlfaLaval items in json-format
+2. A javascript state & render engine
+3. A Single-Page-Application start page (index.html) containing:
+    1. A div tag with id="main", where all HTML will be rendered
+    2. A script tag including "app.js", which will take care of the rendering
 
-### Client (spa)
-* techniques
-* libraries - react/riot/preact etc...
+## Getting started
+1. Clone repo: https://github.com/jsannerstedt/code-camp
+2. Run npm install
+3. Start API (the "json-server" package) using data from db.json: npm run server db.json
+4. Start build watcher: [TODO]
+           
+1 and 3 are provided in the repo, to allow us to focus on part 2. Have a look at:
+* Index.html
+* /src/app.js
+* /src/components/component1.js
+* tests [TODO]
 
-### CSS
-* animations
-* tips & tricks
-* postcss
-
-### Server
-* node
-* mongodb
-
-### Isomporphic
-* how to render an application on both client and server
-
-### build tools
-* browserify/rollup etc
-
-### testing
-* mocha/tape/karma
-* selenium
-
-### Mobile
-* react native - create native apps for ios/android in js
-
-### Desktop
-* electron - create native apps for osx/win in js
-
-## Practice
-
-### individual projects
-* each work on a project of your own, relating to one of the topics above
-
-### group project
-Work on something together. Maybe split into backend and one or more frontend teams. Make sure we have a good idea of what to do, and all pre requisites installed.
+... and start coding!
 
 
-## What's next
-Send a mail, or make a pull request if you have any other ideas, or to vote for one or more topics... 
+
+## What do I do if I'm done in 5 minutes and bored? [TODO]
+* Transpiling and Babel
+* One-way data flow frameworks (reacts, riot etc)
+* Isomorphism
+* ... ?
