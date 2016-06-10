@@ -14,6 +14,7 @@
  * Updating the state and triggering re-render
  * Single-Page-Application routing
  * Javascript tests (with Tape)
+ * Fetch api
 
 ## What are we doing?
 We will be building a basic web application using javascript, as vanilla as possible. The application will consist of:
@@ -26,14 +27,17 @@ We will be building a basic web application using javascript, as vanilla as poss
 ## Getting started
 1. Clone repo: https://github.com/jsannerstedt/code-camp
 2. Run npm install
-3. Start API (the "json-server" package) using data from db.json: npm run server db.json
-4. Start build watcher: [TODO]
+3. Start API (the "json-server" package) using data from db.json: npm run backend
+4. Start build watcher: npm run watch
+5. Start web server: npm run server
+6. if on osx or -nix, npm run dev should do it all
            
-1 and 3 are provided in the repo, to allow us to focus on part 2. Have a look at:
+The backend and the start page are provided, so we can focus on the js parts. Have a look at:
+
 * Index.html
 * /src/app.js
 * /src/components/component1.js
-* tests [TODO]
+* /test/component1.js
 
 ... and start coding!
 
