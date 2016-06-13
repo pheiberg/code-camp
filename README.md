@@ -18,11 +18,18 @@
 
 ## What are we doing?
 We will be building a basic web application using javascript, as vanilla as possible. The application will consist of:
+
 1. Back-end API: AlfaLaval items in json-format
 2. A javascript state & render engine
 3. A Single-Page-Application start page (index.html) containing:
-    1. A div tag with id="main", where all HTML will be rendered
-    2. A script tag including "app.js", which will take care of the rendering
+    * A div tag with id="main", where all HTML will be rendered
+    * A script tag including "app.js", which will take care of the rendering
+
+## Goal
+* Trying modern js techniques
+* Hands on with new ES2015 features
+* TDD in js
+* Understanding the mechanics of react-like frameworks
 
 ## Getting started
 1. Clone repo: https://github.com/jsannerstedt/code-camp
