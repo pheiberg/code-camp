@@ -31,5 +31,8 @@
     "light-server": "^1.1.7",
     "tape": "^4.5.1",
     "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0"
   }
 }
